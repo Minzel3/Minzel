@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="style/contact.css">
+<link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+<link rel="icon" type="image/x-icon" href="images//favicon.ico"/>
+<script src="js/jquery-1.12.0.js"></script>
+<script src="js/jquery-1.12.0.min.js"></script>
+<script src="js/jquery-1.12.4.js"></script>
+<script src="js/jquery1.js"></script>
+	<style type="text/css">
+	</style>
+	<meta charset="UTF-8">
+	<title>AMG度假</title>
+</head>
+<body>
+<!-- banner+nav -->
+	<div class="banner">
+		<div class="logo">
+		<p class="logo_p"><b><span  style="color: #eb5424;">GO</span>&nbsp<span style="color: #fff;">AMG</span></p>
+	</div>
+	<div class="gwidth news_3"><h1><b>联 系</b></h1></div>
+	<nav class="nav  gwidth">
+		<ul class="nav_menu">
+			<li class="nav_menu-item"><a href="index.html" style="color: #fff;"> 首页 </a></li>
+			<li class="nav_menu-item"><a href="about.html" style="color: #fff;"> 关于 </a></li>
+			<li class="nav_menu-item"><a href="gallery.html" style="color: #fff;"> 新闻 </a></li>
+			<li class="nav_menu-item"><a href="services.html" style="color: #fff;"> 服务 </a>
+			<ul class="nav_submenu">
+				    <li class="nav_submenu-item"><a href="play.html" style="color: #fff;"> 当地玩乐 </a></li>
+					<li class="nav_submenu-item"><a href="photo.html" style="color: #fff;"> 婚纱旅拍 </a></li>
+					<li class="nav_submenu-item"><a href="come.html" style="color: #fff;"> 自驾游 </a></li>
+					<li class="nav_submenu-item"> <a href="shop.html" style="color: #fff;">全球购 </a></li>
+				</ul></li>
+			<li class="nav_menu-item"><a href="contact.html" style="color: #fff;"> 联系 </a></li>
+		</ul>
+		<a href="#" class="login" id="login"><i class="glyphicon glyphicon-user"></i></a>
+	</nav>
+
+<div class="login_1" id="user">
+	<h3><b>用户登录</b></h3>
+	<a href="#" class="cuowu" id="cuowu">×</a>
+	<form class="login_2">
+		<span class="login_3"><input class="input_1" type="text" name="username" placeholder=" 手机/邮箱/用户名"></span>
+		<span class="login_4"><input class="input_2" type="text" name="password" placeholder=" 密码"></span>
+		<label style="color: #fff;" class="login_5">
+      <input type="checkbox">下次自动登录
+    </label>
+		 <button type="button" class="button_1" id="button">登 录</button>
+	</form>
+</div>
+
+<!-- content1 -->
+<div class="gd"></div>
+<div class="gwidth content_11">
+	<span class="content_12">
+		<h1>联系我们</h1>
+		<div class="img_1"><img src="images/定位.png">地 址</div>
+		<div class="img_2"><img src="images/电话.png">&nbsp&nbsp&nbsp&nbsp联 系</div>
+		<div class="img_3"><img src="images/邮件.png">&nbsp&nbsp&nbsp&nbsp电 话</div>
+	</span>
+</div>
+<!-- content2 -->
+<form class="form">
+	<input class="input_3" type="text" name="name" placeholder='   Your Name'>
+	<input class="input_4" type="email" name="eamail"placeholder='   E-Mail'>
+	<input class="input_5" type="text" name="subject" placeholder='   Subject'>
+	<textarea class="input_6" type="textarea" name="message" placeholder="   Your Message"></textarea>
+	<button type="button" class="button_2" id="button_1">提交</button>
+</form>
+
+<!-- footer -->
+<div class="footer gwidth"> <br><br><span class="footer_copy">版权所有 &copy &reg 519221036@qq.com</span>
+           <div class="copyright"><a href="#" class="copyright1"><span class="glyphicon glyphicon-phone-alt " style="color: #fff;font-size: 20px;"></span></a>&nbsp&nbsp&nbsp<a href="#" class="copyright2"><span class="glyphicon glyphicon-qrcode " style="color: #fff;font-size: 20px;"></span></a>&nbsp&nbsp&nbsp<a href="#" class="copyright3"><span class="glyphicon glyphicon-globe " style="color: #fff;font-size: 20px;"></span></a>&nbsp&nbsp&nbsp<a href="#" class="copyright4"><span class="glyphicon glyphicon-flag " style="color: #fff;font-size: 20px;"></span></a></div>
+          </div>
+
+<script type="text/javascript">
+	var login = document.getElementById('login');
+	var user = document.getElementById('user');
+	var error = document.getElementById('cuowu');
+	login.onclick = function(){
+		user.style.display = 'block';
+		error.onclick = function(){
+			user.style.display = 'none';
+		}
+	}
+	var button = document.getElementById('button');
+	button.onmouseover= function(){
+		this.style.backgroundColor = '#105abe';
+		button.onmouseout = function(){
+			this.style.backgroundColor= 'rgb(68, 144, 247)';
+		}
+	}
+	var button1 = document.getElementById('button_1');
+	button1.onmouseover= function(){
+		this.style.backgroundColor = '#c61515';
+		button1.onmouseout = function(){
+			this.style.backgroundColor= '#e83f3f';
+		}
+	}
+</script>
+</body>
+</html>

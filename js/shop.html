@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="style/shop.css">
+<link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+<link rel="icon" type="image/x-icon" href="images//favicon.ico"/>
+<link rel="stylesheet" href="style/shutter.css">
+<script src="js/jquery-1.12.0.js"></script>
+<script src="js/jquery-1.12.0.min.js"></script>
+<script src="js/jquery-1.12.4.js"></script>
+<script src="js/jquery1.js"></script>
+	<style type="text/css">
+	</style>
+	<meta charset="UTF-8">
+	<title>AMG度假</title>
+</head>
+<body>
+	<nav class="gwidth nav">
+		<ul class="nav_menu clearfix">
+			<li class="nav_menu-item"><a href="index.html" style="color: #fff;"> 首页 </a></li>
+			<li class="nav_menu-item"><a href="about.html" style="color: #fff;"> 关于 </a></li>
+			<li class="nav_menu-item"><a href="gallery.html" style="color: #fff;"> 新闻 </a></li>
+			<li class="nav_menu-item"><a href="services.html" style="color: #fff;"> 服务 </a>
+			<ul class="nav_submenu">
+				    <li class="nav_submenu-item"><a href="play.html" style="color: #fff;"> 当地玩乐 </a></li>
+					<li class="nav_submenu-item"><a href="photo.html" style="color: #fff;"> 婚纱旅拍 </a></li>
+					<li class="nav_submenu-item"><a href="come.html" style="color: #fff;"> 自驾游 </a></li>
+					<li class="nav_submenu-item"> <a href="shop.html" style="color: #fff;">全球购 </a></li>
+				</ul></li>
+			<li class="nav_menu-item"><a href="contact.html" style="color: #fff;"> 联系 </a></li>
+		</ul>
+	</nav>
+	<div class="banner" id="banner"></div>
+	<div class="banner_0"><div class="banner_1"><a href="404.html">新系列</a></div>
+	<div class="banner_2"><a href="404.html">促销价</a></div></div>
+<!-- content1 -->
+<div class="content_1">
+	<div class="gwidth content_2">
+		<span class="content_21"><img src="images/extra_1.jpg"><span class="content_021"><span class="font_001"><p>30%的<i>折扣</i></p><font>都在鞋子上</font></span></span></span>
+		<span class="content_22"><img src="images/extra_2.jpg"><i>代 购</i><p>&</p><button type="button" class="button_1" id="button_1">查看详情</button></span>
+	</div>
+</div>
+<!-- content2 -->
+<div class="gwidth news"><h4><b>只有最好</b></h4></div>
+<div class="gwidth news_2"><h1><b>代 购 价 格</b></h1></div>
+<div class="gwidth content_3">
+	<span class="content_31"><img src="images/promo_1.jpg"><span class="opt_1"><p style="font-size: 30px;color: #fff;margin-left: 100px;line-height: 75px;">折扣30%</p></span><span id="button_01" class="content3_button1">马上行动</span></span>
+	<span class="content_32"><img src="images/promo_2.jpg"><span  class="opt_2"><p style="font-size: 30px;color: #fff;margin-left: 100px;line-height: 75px;">折扣30%</p></span><span id="button_02" class="content3_button2">马上行动</span></span>
+	<span class="content_33"><img src="images/promo_3.jpg"><span class="opt_3"><p style="font-size: 30px;color: #fff;margin-top: 70px;margin-left: 5px;">25%折扣鞋子</p></span><span id="button_03" class="content3_button3">马上行动</span></span>
+</div>
+<!-- <--- content3 -->
+<div class="content_4">
+	<div class="gwidth">
+	<div class="gwidth news_3"><h1><b>推 荐 详 情</b></h1></div>
+	<div class="gwidth news_4"></div>
+	<div class="gwidth news_5"></div>
+<span class="friendlink_01"><span class="after1"><h3>包包</h3><hr style="width: 150px;"><p>详情查看</p></span></span>
+<span class="friendlink_02"><span class="after2"><i><h3>大衣</h3><hr style="width: 150px;"><p>详情查看</p></i></span></span>
+<span class="friendlink_03"><span class="after3"><i><h3>鞋子</h3><hr style="width: 150px;"><p>详情查看</p></i></span></span>
+<span class="friendlink_04"><span class="after4"><i><h3>潮牌</h3><hr style="width: 150px;"><p>详情查看</p></i></span></span>
+    </div>
+</div>
+
+<!-- footer -->
+<div class="footer gwidth"> <br><br><span class="footer_copy">版权所有 &copy &reg 519221036@qq.com</span>
+           <div class="copyright"><a href="#" class="copyright1"><span class="glyphicon glyphicon-phone-alt " style="color: #fff;font-size: 20px;"></span></a>&nbsp&nbsp&nbsp<a href="#" class="copyright2"><span class="glyphicon glyphicon-qrcode " style="color: #fff;font-size: 20px;"></span></a>&nbsp&nbsp&nbsp<a href="#" class="copyright3"><span class="glyphicon glyphicon-globe " style="color: #fff;font-size: 20px;"></span></a>&nbsp&nbsp&nbsp<a href="#" class="copyright4"><span class="glyphicon glyphicon-flag " style="color: #fff;font-size: 20px;"></span></a></div>
+          </div>
+
+
+
+ 
+<script type="text/javascript">
+        var imgs =["images/shop1.jpg","images/shop3.jpg"];
+        var i = 0;
+        var head=document.getElementById('banner');
+        head.style.background="url(images/shop3.jpg)";
+                function time(){
+                    i++;
+                    i=i%2;
+                    head.style.background="url("+imgs[i]+")";
+                }
+                setInterval(time,3000);
+var button = document.getElementById('button_1');
+button.onmouseover = function(){
+	this.style.backgroundColor = '#fff';
+}
+var opt =document.getElementById('button_01');
+opt.onmouseover = function(){
+	this.style.color = '#937c6f';
+	opt.onmouseout = function(){
+	this.style.color = '#fff';
+}
+}
+var opt1 =document.getElementById('button_02');
+opt1.onmouseover = function(){
+	this.style.color = '#937c6f';
+	opt1.onmouseout = function(){
+	this.style.color = '#fff';
+}
+}
+var opt2 =document.getElementById('button_03');
+opt2.onmouseover = function(){
+	this.style.color = '#937c6f';
+	opt2.onmouseout = function(){
+	this.style.color = '#fff';
+}
+}
+$(document).ready(function(){
+  $(".befer1").mouseover(function(){
+    $(this).stop().slideToggle(1000);
+  });
+});
+$(document).ready(function(){
+  $(".beferer1").mouseout(function(){
+    $(".befer1").stop().slideToggle(1000);
+  });
+});
+$(document).ready(function(){
+  $(".after2").mouseover(function(){
+    $(".after2").stop().slideToggle(1000);
+  });
+});
+$(document).ready(function(){
+  $(".after2").mouseout(function(){
+    $(".after2").stop().slideToggle(1000);
+  });
+});
+$(document).ready(function(){
+  $(".after3").mouseover(function(){
+    $(".after3").stop().slideToggle(1000);
+  });
+});
+$(document).ready(function(){
+  $(".after3").mouseout(function(){
+    $(".after3").stop().slideToggle(1000);
+  });
+});
+$(document).ready(function(){
+  $(".after4").mouseover(function(){
+    $(".after4").stop().slideToggle(1000);
+  });
+});
+$(document).ready(function(){
+  $(".after4").mouseout(function(){
+    $(".after4").stop().slideToggle(1000);
+  });
+});
+</script>
+</body>
+</html>
