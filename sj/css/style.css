@@ -1,0 +1,245 @@
+/*top头部*/
+.top{
+	width: 1200px;
+	height: 69px;
+	background-color: #504F4F;
+	margin: 0 auto;
+	box-shadow:0px 3px 10px #888888;
+}
+.topLink{
+  width: 127px;
+  height: 17px;
+}
+.topLink span{
+	font-size: 16px;
+	color: #fff;
+	margin:0 10px;
+}
+.topLink a{
+	font-size: 12px;
+	color: #fff;
+}
+.nav{
+	width: 969px;
+	height: 53px;
+	marign:0 auto;
+}
+.nav_item{
+	margin: 0;
+	padding: 0;
+	width: 906px;
+	height: 53px;
+}
+.nav_item li a{
+	line-height: 53px;
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+	font-family: '宋体';
+}
+.nav_item li a:hover{
+	color: #ED3A11FF;
+}
+.nav_item strong{
+	line-height: 53px;
+	display: inline-block;
+	font-size: 14px;
+	color: #000;
+	margin: 0px 20px;
+}
+.nav_item li{
+	display: inline-block;
+}
+/*---------------------------------------------------------------banner---------------------------------------------------------------*/
+.wrap{
+	width: 965px;
+	height: 314px;
+	border: 1px solid #ACACAC;
+	margin:0 auto;
+	position: relative;
+}
+.item{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+    transition: all .5s;
+}
+.item.active{
+	opacity: 1;
+	z-index: 10;
+}
+.pointbtn{
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	z-index: 1000;
+}
+.point{
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	background-color: #000;
+	float: left;
+	margin-right: 7px;
+}
+.point.active{
+	background-color: #96BF05;
+}
+/*---------------------------------------------------------------banner------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------content---------------------------------------------------------------*/
+.jianjie{
+	font-size: 0px;
+	width: 965px;
+	height: 285px;
+	border: 1px solid #000;
+	margin:0 auto;
+	margin-top: 23px;
+	position: relative;
+}
+.f1{
+	width: 178px;
+	height: 29px;
+	font-size: 16px;
+	font-family: '宋体';
+	color: #FDAC43;
+	vertical-align: bottom;
+	margin-top: 4px;
+	margin-left: 16px;
+}
+.f1 span{
+	font-size: 12px;
+	color: #A9A9A9;
+	vertical-align: bottom;
+}
+.jianjieleft{
+	width: 673px;
+	height: 256px;
+	border-right: 1px solid #BEBDBD;
+	position: absolute;
+	top: 50%;
+	margin-top: -128px;
+}
+.jum{
+	width: 174px;
+	height: 223px;
+	margin-left: 16px;
+}
+.font{
+	width: 437px;
+	height: 231px;
+    margin-left: 25px;
+    margin-top: -10px;
+	}
+.font p{
+	font-size: 12px;
+	color: #000;
+	font-family: '宋体';
+	line-height: 31px;
+}
+.font span{
+	font-size: 12;
+	color: #FC9918;
+}
+.jianjieright{
+	width: 290px;
+	height: 286px;
+}
+.fon{
+	margin-left: 31px;
+	margin-top: 15px;
+	font-size: 10px;
+	color: #A9A9A9;
+	vertical-align: bottom;
+}
+.fon span{
+	font-size: 16px;
+	font-family: '宋体';
+	color: #FDAC43;
+	vertical-align: bottom;
+}
+.zixun{
+	width: 240px;
+	height: 245px;
+	margin-top: 6px;
+	margin-left: 31px;
+}
+.zixun ul li a{
+	font-size: 12px;
+	color:#000;
+	line-height: 31px;
+	float: left;
+}
+.zixun ul li a:hover{
+	color: #FDAC43;
+	text-decoration: underline;
+}
+.zixun ul li span{
+	font-size: 12px;
+	color: #000;
+	float: right;
+	line-height: 31px;
+}
+.fu{
+	line-height: 24px;
+	font-size: 12px;
+	color: #000;
+}
+.fu:hover{
+	color: red;
+}
+.content_2{
+	width: 966px;
+	height: 325px;
+	border: 1px solid #000;
+	margin: 0 auto;
+	margin-top: 24px;
+}
+.imgzu{
+	width: 936px;
+	height: 263px;
+	margin: 0 auto;
+	margin-top: 16px;
+}
+.imgzu div{
+	width: 164px;
+	height: 119px;
+	overflow: hidden;
+	float: left;
+}
+.imgzu img{
+	transition: 1s;
+}
+.imgzu img:hover{
+	transform: scale(1.4);
+}
+/*--------------------------------------------------------------footer--------------------------------------------------------------*/
+.footer{
+	width: 969px;
+	height: 136px;
+	margin: 0 auto;
+	font-size: 0px;
+}
+.footer li{
+  line-height: 24px;
+  font-size: 12px;
+  color: #000;
+}
+.footer span{
+	margin: 0px 7px;
+}
+.footer a{
+	font-size: 12px;
+	color: #000;
+}
+.footer a:hover{
+	color: #ED3A11FF;
+	text-decoration: underline;
+}
+.footerT{
+	margin-top: 34px;
+	margin-left: 6px;
+}
+
